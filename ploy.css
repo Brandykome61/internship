@@ -1,0 +1,179 @@
+.God{
+    max-width: 900px;
+    margin:0 auto;
+}    
+h6{
+    font-weight: 200;
+    color: rgb(141, 134, 134);
+}
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.chart {
+    text-align: center;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto 10px;
+}
+
+.circle::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle1 {
+    background: conic-gradient(#00b894 0% 100%, transparent 0% 100%);
+}
+
+#circle2 {
+    background: conic-gradient(#4a37df 0% 80%, #35abea 0% 100%);
+}
+
+#circle3 {
+    background: conic-gradient(#eb8a0b 0% 20%, hwb(34 42% 6%) 0% 100%);
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    color: gray;
+}
+
+span {
+    font-size: 14px;
+   
+}   
+payroll-schedule {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.payroll-schedule th, .payroll-schedule td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+.payroll-schedule th {
+    background-color: rgb(11, 132, 126);
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px ;
+   
+
+    
+}
+.new h6{
+    text-align: center;
+    font-weight: 200;
+    color: rgb(141, 134, 134);
+    
+    
+}
+h6{
+    font-weight: 200;
+    color: rgb(141, 134, 134);
+    
+}
+button {
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor:pointer;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 16px;
+
+}
+#tired{
+    border: 1px hsl(0, 16%, 84%) solid;
+    
+}
+
+#help{
+    border: 1px rgb(206, 202, 202) solid; 
+}
+#yoo{
+    color: rgb(141, 134, 134);
+    
+}
+#yaa{
+    color: rgb(141, 134, 134);
+    background-color: rgb(247, 246, 246);
+
+}
+#yuu{
+    color: rgb(141, 134, 134);
+      
+}
+#yee{
+    color: rgb(141, 134, 134);
+    background-color: rgb(247, 246, 246);  
+
+}
+#poo{
+    background-color: rgb(247, 246, 246);  
+}
+#yii{
+    background-color: rgb(247, 246, 246);   
+
+}
+#pa{
+    background-color: rgb(247, 246, 246); 
+}
+#pe{
+    background-color: rgb(247, 246, 246);     
+}
+#pi{
+    background-color: rgb(247, 246, 246);        
+}
+#pu{
+    background-color: rgb(247, 246, 246); 
+      
+}
+#ka{
+    background-color: rgb(247, 246, 246);      
+}
+#ke{
+    background-color: rgb(247, 246, 246);      
+}
+#ki{
+    background-color: rgb(247, 246, 246);    
+}
+#ko{
+    background-color: rgb(247, 246, 246); 
+     
+}
+
+

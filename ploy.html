@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="ploy.css">
+</head>
+<body>
+   <div class="God">
+    <div class="dashboard">
+        <h3><b>Employee Payroll Schedule Dashboard with Amount Summary</b></h4>
+        <h6>The following slide highlights the employee schedule with Amount Summary illustrating key headings which includes total amount,paid amount,amount to pay,payroll schedule,name,payment ID,due date,amount,status and action. </h6>
+       </div>
+       <p id="tired"><button>Amount summary</button></p>
+       <div class="amount">
+        <div class="chart">
+            <div class="circle" id="circle1"></div>
+            <p>$100,000<br><span>Total amount</span></p>
+        </div>
+        <div class="chart">
+            <div class="circle" id="circle2"></div>
+            <p>$80,000<br><span>Paid amount</span></p>
+        </div>
+        <div class="chart">
+            <div class="circle" id="circle3"></div>
+            <p>$20,000<br><span>Amount to pay</span></p>
+        </div>
+       </div>
+       <br> 
+    <p id="help"><button>Payroll Schedule</button></p>
+    <div class="payroll-schedule">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Payment Id</th>
+                <th>Due date</th>
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td><b>Aegon</b></td>
+                <td><b>11dxybz</b></td>
+                <td><b>12 Jan 2023</b></td>
+                <td><b>$500</b></td>
+                <td><b>Due</b></td>
+                <td id="yoo">Pay now</td>
+            </tr>
+            <tr>
+                <td id="poo"><b>Ryan</b></td>
+                <td id="ko"><b>11dxyba</b></td>
+                <td id="ki"><b>13 April 2023</b></td>
+                <td id="ke"><b>$600</b></td>
+                <td id="ka"><b>Over due</b></td>
+                <td id="yaa">Pay now</td>
+            </tr>
+            <tr>
+                <td><b>Brandy</b></td>
+                <td><b>11dxybu</b></td>
+                <td><b>14 Dec 2023</b></td>
+                <td><b>$700</b></td>
+                <td><b>Due</b></td>
+                <td id="yuu">Paid</td>
+            </tr>
+            <tr>
+                <td id="yii"><b>Brandon</b></td>
+                <td id="pu"><b>11dxyb8</b></td>
+                <td id="pi"><b>19 May 2023</b></td>
+                <td id="pe"><b>$900</b></td>
+                <td id="pa"><b>Over due</b></td>
+                <td id="yee">Pay now</td>
+            </tr>
+        
+        </table>
+    </div>
+    <div class="new">
+        <h6>This graph/chart is linked to excess,and changes automatically based on data.Just left-click on it and slect edit-data</h6>
+    </div>
+   </div>
+   
+
+<script>
+    document.addEventListener('DOMContentLoaded',function () {
+        const payNow = document.querySelectorAll('.payNow');
+        buttons.forEach(button =>{
+            button.addEventListener('click', function() {
+                alert("Payment processing...");  
+                
+            });
+        });
+    });
+   
+    
+
+</script>
+</body>
+</html>
+   </div>   
